@@ -1,4 +1,4 @@
-include<iostream>
+#include<iostream>
 #include<string>
 using namespace std;
 
@@ -7,6 +7,7 @@ private:
 	int stack_array[5];
 	int top;
 
-public:
+
 
 };
+
