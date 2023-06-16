@@ -49,5 +49,17 @@ public:
 };
 
 int main() {
-	
+	stackarray s;
+	char ch;
+	while (true) {
+		cout << endl;
+		cout << "\nMenu" << endl;
+		cout << "1. push" << endl;
+		cout << "2. pop" << endl;
+		cout << "3. display" << endl;
+		cout << "4. Exit" << endl;
+		cout << "\nEnter your choice (1-4): ";
+		cin >> (ch);
+		switch (ch) {
+		
 
