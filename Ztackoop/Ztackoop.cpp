@@ -16,4 +16,7 @@ public:
 		if (top == 4) {
 			cout << "number of data execend the limit" << endl;
 			return 0;
+		}
+		top++;//step2
 		
+
