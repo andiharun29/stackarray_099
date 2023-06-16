@@ -12,6 +12,8 @@ public:
 		top = -1;
 	}
 
-	
-};
-
+	int push(int element) {
+		if (top == 4) {
+			cout << "number of data execend the limit" << endl;
+			return 0;
+		
